@@ -13,12 +13,18 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
+          <a href="/Home">
             Riya Wani
+          </a>
+           
           {/* <div>
             <img src="/riya-logo.png" alt=""/>
           </div> */}
         </motion.span>
         <div className="social">
+          <a target="_blank" href="https://www.linkedin.com/in/riya-wani-114672229/">
+            <img src="/linkedin.png" alt="" />
+          </a>
           <a target="_blank" href="https://github.com/Riyaa2610">
             <img src="/github.png" alt="" />
           </a>

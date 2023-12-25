@@ -37,6 +37,52 @@ const Single = ({ item }) => {
   });
 
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
+  let buttons;
+  if (item.id === 1) {
+    buttons = (
+      <>
+        <a href="https://blogs.tedxpict.in/" target="_blank">
+          <button>View Project</button>
+        </a>
+        <a href="https://medium.com/@riyawani26/tedxpict-blogs-website-ui-ux-case-study-bf389410b35a" target="_blank">
+          <button>View Case Study</button>
+        </a>
+      </>
+    )
+  }
+  else if (item.id === 2) {
+    buttons = (
+      <>
+        <a href="https://printez.netlify.app/" target="_blank">
+          <button>View Project</button>
+        </a>
+        <a href="https://www.behance.net/gallery/176674093/UIUX-Case-Study-PrintEZ" target="_blank">
+          <button>View Case Study</button>
+        </a>
+      </>
+    )
+  }
+  else if (item.id === 3)
+  { 
+    buttons = (
+      <>
+        <a href="https://www.figma.com/file/vqxFLKWe16zi9bmX2d3onu/Lemon-Tree?type=design&node-id=0-1&mode=design&t=RdANscuMpqa64tjT-0" target="_blank">
+          <button>View Project</button>
+        </a>
+      </>
+    )  
+  }
+  else if (item.id === 4)
+  {
+    buttons = (
+      <>
+        <a href="https://www.figma.com/file/LLq5Q1mnp8C1VQuHlIq7pj/SIH-Lawyer-Screens?type=design&node-id=0-1&mode=design&t=PbGtUSmalF5cMNLr-0" target="_blank">
+          <button>View Project</button>
+        </a>
+      </>
+    )
+    }
+  
 
   return (
     <section >
@@ -48,16 +94,7 @@ const Single = ({ item }) => {
           <motion.div className="textContainer" style={{y}}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <motion.div className="buttonContainer" >
-            {item.id === 1 || item.id === 2 ? (
-              <>
-                <button>View Project</button>
-                <button>View Case Study</button>
-              </>
-            ) : (
-              <button>View Project</button>
-              )}
-            </motion.div>
+            <motion.div className="buttonContainer" >{buttons}</motion.div>
           </motion.div>
         </div>
       </div>

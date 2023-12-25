@@ -65,7 +65,9 @@ const Services = () => {
             I'm a skilled UI/UX designer with experience in various freelance projects.
             I pay close attention to details, follow user-friendly design principles, and stay updated on the latest trends to create designs that give users good user experience.
           </p>
-          <button>View Relevant Work</button>
+          <a href="https://www.figma.com/file/MVCrJQ0pVDtaa6zcHlnm5Q/Design-Work?type=design&node-id=0-1&mode=design&t=KKMd5LkhmuQlFLIw-0" target="_blank" rel="noopener noreferrer">
+            <button>View Relevant Work</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -75,7 +77,9 @@ const Services = () => {
           <p>
           I am an experienced graphic designer with a flair for creating visually captivating designs, having one internship specialising in Graphic Design. I am also Head of Design at TEDxPICT.
           </p>
-          <button>View Relevant Work</button>
+          <a href="https://www.behance.net/riyawani26" target="_blank" rel="noopener noreferrer">
+            <button>View Relevant Work</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -85,7 +89,9 @@ const Services = () => {
           <p>
           I'm a frontend web developer.With hands-on experience in coding and design, I focus on making user interfaces both attractive and easy to navigate for a seamless online experience.
           </p>
-          <button>View Relevant Work</button>
+          <a href="/Projects" target="_blank" rel="noopener noreferrer">
+            <button>View Relevant Work</button>
+          </a>
         </motion.div>
         <motion.div
           className="box"
@@ -95,7 +101,9 @@ const Services = () => {
           <p>
           Passionate UX writer specializing in crafting engaging Medium articles on UI/UX and staying updated on the latest trends in user experience. I'm drawn to creating content that not only educates but also sparks interest in the dynamic world of UI/UX design.
           </p>
-          <button>View Relevant Work</button>
+          <a href="https://medium.com/@riyawani26" target="_blank" rel="noopener noreferrer">
+            <button>View Relevant Work</button>
+          </a>
         </motion.div>
       </motion.div>
     </motion.div>
