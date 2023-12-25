@@ -13,20 +13,23 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Lama Dev
+            Riya Wani
+          {/* <div>
+            <img src="/riya-logo.png" alt=""/>
+          </div> */}
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/facebook.png" alt="" />
+          <a target="_blank" href="https://github.com/Riyaa2610">
+            <img src="/github.png" alt="" />
           </a>
-          <a href="#">
+          <a target="_blank" href="https://www.instagram.com/riyawani26/">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
+          <a target="_blank" href="https://www.behance.net/riyawani26">
+            <img src="/behance.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/dribbble.png" alt="" />
+          <a target="_blank" href="https://medium.com/@riyawani26">
+            <img src="/medium.png" alt="" />
           </a>
         </div>
       </div>

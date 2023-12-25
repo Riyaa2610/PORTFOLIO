@@ -1,0 +1,44 @@
+// about.scss
+@import "../../app.scss";
+
+.about {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    .wrapper {
+      max-width: 1200px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .imageContainer {
+        flex: 1;
+        height: 100%;
+
+        img {
+          width: 80%;
+          height: 70%;
+          object-fit: cover;
+        }
+      }
+
+      .textContainer {
+        flex: 1;
+        padding: 0 60px;
+
+        h2 {
+          font-size: 56px;
+        }
+
+        p {
+          color: gray;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
