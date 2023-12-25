@@ -31,6 +31,9 @@ const Navbar = () => {
           <a target="_blank" href="https://medium.com/@riyawani26">
             <img src="/medium.png" alt="" />
           </a>
+          <a target="_blank" href="https://drive.google.com/file/d/1AFRCgd1EnUIX1y7tLgxvFmVr1BPwDvav/view?usp=sharing">
+            <h3>RESUME</h3>
+          </a>
         </div>
       </div>
     </div>
