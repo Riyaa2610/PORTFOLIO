@@ -13,7 +13,7 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <a href="/Home">
+          <a href="/#Home">
             <img src="/Rlogo.png" alt=""/>
           </a> 
         </motion.span>
