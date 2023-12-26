@@ -109,6 +109,9 @@
             &:hover {
               background-color: white;
             }
+            @include mobile{
+              width: 150px;
+            }
           }
           
         

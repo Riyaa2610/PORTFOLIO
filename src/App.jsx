@@ -10,7 +10,7 @@ import Services from "./components/services/Services";
 import AboutMe from "./components/About/About"
 const App = () => {
   return (
-    <div>
+    <>
       <Cursor />
       <section id="Home">
         <Navbar />
@@ -32,7 +32,7 @@ const App = () => {
       <section id="Contact Me">
         <ContactMe />
       </section>
-    </div>
+    </>
   );
 };
 
