@@ -19,7 +19,7 @@ const items = [
     id: 3,
     title: "Lemon Tree(Freelance UI/UX)",
     img: "/lemontree.png",
-    desc: "Worked as a Freelance Ui/Ux designer, Lemon Tree is a BTC (Bitcoin)Price Prediction Website.",
+    desc: "Worked as a Freelance UI/UX designer, Lemon Tree is a BTC (Bitcoin) Price Prediction Website.",
   },
   {
     id: 4,
@@ -41,10 +41,10 @@ const Single = ({ item }) => {
   if (item.id === 1) {
     buttons = (
       <>
-        <a href="https://blogs.tedxpict.in/" target="_blank">
+        <a href="https://blogs.tedxpict.in/" target="_blank" rel="noopener noreferrer">
           <button>View Project</button>
         </a>
-        <a href="https://medium.com/@riyawani26/tedxpict-blogs-website-ui-ux-case-study-bf389410b35a" target="_blank">
+        <a href="https://medium.com/@riyawani26/tedxpict-blogs-website-ui-ux-case-study-bf389410b35a" target="_blank" rel="noopener noreferrer">
           <button>View Case Study</button>
         </a>
       </>
@@ -53,10 +53,10 @@ const Single = ({ item }) => {
   else if (item.id === 2) {
     buttons = (
       <>
-        <a href="https://printez.netlify.app/" target="_blank">
+        <a href="https://printez.netlify.app/" target="_blank" rel="noopener noreferrer">
           <button>View Project</button>
         </a>
-        <a href="https://www.behance.net/gallery/176674093/UIUX-Case-Study-PrintEZ" target="_blank">
+        <a href="https://www.behance.net/gallery/176674093/UIUX-Case-Study-PrintEZ" target="_blank" rel="noopener noreferrer">
           <button>View Case Study</button>
         </a>
       </>
@@ -66,7 +66,7 @@ const Single = ({ item }) => {
   { 
     buttons = (
       <>
-        <a href="https://www.figma.com/file/vqxFLKWe16zi9bmX2d3onu/Lemon-Tree?type=design&node-id=0-1&mode=design&t=RdANscuMpqa64tjT-0" target="_blank">
+        <a href="https://www.figma.com/file/vqxFLKWe16zi9bmX2d3onu/Lemon-Tree?type=design&node-id=0-1&mode=design&t=RdANscuMpqa64tjT-0" target="_blank" rel="noopener noreferrer">
           <button>View Project</button>
         </a>
       </>
@@ -76,7 +76,7 @@ const Single = ({ item }) => {
   {
     buttons = (
       <>
-        <a href="https://www.figma.com/file/LLq5Q1mnp8C1VQuHlIq7pj/SIH-Lawyer-Screens?type=design&node-id=0-1&mode=design&t=PbGtUSmalF5cMNLr-0" target="_blank">
+        <a href="https://www.figma.com/file/LLq5Q1mnp8C1VQuHlIq7pj/SIH-Lawyer-Screens?type=design&node-id=0-1&mode=design&t=PbGtUSmalF5cMNLr-0" target="_blank" rel="noopener noreferrer">
           <button>View Project</button>
         </a>
       </>

@@ -14,12 +14,8 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
         >
           <a href="/Home">
-            Riya Wani
-          </a>
-           
-          {/* <div>
-            <img src="/riya-logo.png" alt=""/>
-          </div> */}
+            <img src="/Rlogo.png" alt=""/>
+          </a> 
         </motion.span>
         <div className="social">
           <a target="_blank" href="https://www.linkedin.com/in/riya-wani-114672229/">

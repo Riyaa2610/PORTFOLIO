@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+import { motion, useMotionValue, useSpring } from "framer-motion";
 import "./cursor.scss";
 
 const Cursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
 
   useEffect(() => {
     const mouseMove = (e) => {
@@ -17,10 +19,21 @@ const Cursor = () => {
     };
   }, []);
 
+  // Use useMotionValue and useSpring for calibrated animation
+  useEffect(() => {
+    x.set(position.x);
+    y.set(position.y);
+  }, [position.x, position.y]);
+
+  const springConfig = { damping: 20, stiffness: 300 };
+  
   return (
     <motion.div
       className="cursor"
-      animate={{ x: position.x+10, y: position.y+10 }}
+      style={{
+        translateX: useSpring(x, springConfig),
+        translateY: useSpring(y, springConfig),
+      }}
     ></motion.div>
   );
 };
