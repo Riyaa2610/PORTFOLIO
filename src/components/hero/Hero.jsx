@@ -16,7 +16,7 @@ const textVariants = {
   },
   scrollButton: {
     opacity: 0,
-    y: 10,
+    y: [0, -10, 0], // Add a y animation sequence for the scroll button
     transition: {
       duration: 2,
       repeat: Infinity,
@@ -31,7 +31,7 @@ const sliderVariants = {
     x: "-220%",
     transition: {
       repeat: Infinity,
-      repeatType:"mirror",
+      repeatType: "mirror",
       duration: 20,
     },
   },
@@ -51,19 +51,21 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>
             UI/UX Designer, Frontend Developer
           </motion.h1>
-          <motion.h3 variants={textVariants}>I like to make digital experiences easier and simple for people.</motion.h3>
+          <motion.h3 variants={textVariants}>
+            I like to make digital experiences easier and simple for people.
+          </motion.h3>
           {/* <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
               See the Latest Works
             </motion.button>
             <motion.button variants={textVariants}>Contact Me</motion.button>
           </motion.div> */}
-          <motion.img
+          {/* <motion.img
             variants={textVariants}
-            animate="scrollButton"
+            animate="scrollButton" // Use the correct variant for the scroll button
             src="/scroll.png"
             alt=""
-          />
+          /> */}
         </motion.div>
       </div>
       <motion.div
