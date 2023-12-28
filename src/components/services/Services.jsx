@@ -77,7 +77,7 @@ const Services = () => {
           <p>
           I am an experienced graphic designer with a flair for creating visually captivating designs, having one internship specialising in Graphic Design. I am also Head of Design at TEDxPICT.
           </p>
-          <a href="https://www.behance.net/riyawani26" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/drive/folders/1SwFv28FFPKl0pn1lf4MkUNCJlbXz2FRe?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button>View Relevant Work</button>
           </a>
         </motion.div>
@@ -89,7 +89,7 @@ const Services = () => {
           <p>
           I'm a frontend web developer.With hands-on experience in coding and design, I focus on making user interfaces both attractive and easy to navigate for a seamless online experience.
           </p>
-          <a href="/Projects" target="_blank" rel="noopener noreferrer">
+          <a href="" target="_blank" rel="noopener noreferrer">
             <button>View Relevant Work</button>
           </a>
         </motion.div>
