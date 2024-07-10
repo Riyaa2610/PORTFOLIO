@@ -7,7 +7,8 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Projects from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
-import AboutMe from "./components/About/About"
+import AboutMe from "./components/About/About";
+import Carousel from "./components/Carousel/carousel"
 const App = () => {
   return (
     <>
@@ -24,6 +25,9 @@ const App = () => {
       </section>
       <section id="Projects">
         <Parallax type="portfolio" />
+      </section>
+      <section id="Creative">
+        <Carousel/>
       </section>
       <Projects />
       <section id="About">

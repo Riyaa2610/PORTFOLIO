@@ -43,16 +43,16 @@ const Services = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          <img src="/ux.png" alt="" />
+          {/* <img src="/ux.png" alt="" /> */}
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Skills</motion.b> And
+            <motion.b whileHover={{color:"orange"}}>I am proficient in ?</motion.b> 
           </h1>
         </div>
         <div className="title">
-          <h1>
+          {/* <h1>
             <motion.b whileHover={{color:"orange"}}>Services</motion.b>
           </h1>
-          <button>WHAT I DO?</button>
+          <button>WHAT I DO?</button> */}
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -61,49 +61,44 @@ const Services = () => {
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>UI/UX Design</h2>
-          <p>
-            I'm a skilled UI/UX designer with experience in various freelance projects.
-            I pay close attention to details, follow user-friendly design principles, and stay updated on the latest trends to create designs that give users good user experience.
-          </p>
-          <a href="https://www.figma.com/file/MVCrJQ0pVDtaa6zcHlnm5Q/Design-Work?type=design&node-id=0-1&mode=design&t=KKMd5LkhmuQlFLIw-0" target="_blank" rel="noopener noreferrer">
-            <button>View Relevant Work</button>
-          </a>
+          <motion.div className="row">
+            <img src="/figma.png"/>
+          </motion.div>
+          
+          
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>Graphic Design</h2>
-          <p>
-          I am an experienced graphic designer with a flair for creating visually captivating designs, having one internship specialising in Graphic Design. I am also Head of Design at TEDxPICT.
-          </p>
-          <a href="https://drive.google.com/drive/folders/1SwFv28FFPKl0pn1lf4MkUNCJlbXz2FRe?usp=sharing" target="_blank" rel="noopener noreferrer">
-            <button>View Relevant Work</button>
-          </a>
+          <motion.div className="row">
+            <img src="/photoshop.png" />
+            <img src="/illustrator.png" />
+            <img src="/indesign.png" />
+          </motion.div>
+          
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>Web Development</h2>
-          <p>
-          I'm a frontend web developer.With hands-on experience in coding and design, I focus on making user interfaces both attractive and easy to navigate for a seamless online experience.
-          </p>
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <button>View Relevant Work</button>
-          </a>
+          <motion.div className="row">
+            <img src="/html.png" />
+            <img src="/css.png" />
+            <img src="/bootstrap.png" />
+            <img src="/react.png" />
+          </motion.div>
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>UX Writing</h2>
-          <p>
-          Passionate UX writer specializing in crafting engaging Medium articles on UI/UX and staying updated on the latest trends in user experience. I'm drawn to creating content that not only educates but also sparks interest in the dynamic world of UI/UX design.
-          </p>
-          <a href="https://medium.com/@riyawani26" target="_blank" rel="noopener noreferrer">
-            <button>View Relevant Work</button>
-          </a>
+          <motion.div className="row">
+            <img src="/medium.png"/>
+          </motion.div>
         </motion.div>
       </motion.div>
     </motion.div>

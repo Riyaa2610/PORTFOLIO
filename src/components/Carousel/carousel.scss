@@ -1,0 +1,37 @@
+/* Carousel.scss */
+.carousel-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+  
+    .carousel-title {
+      font-size: 70px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #FFA500;
+      padding-top: 5%;
+    }
+  
+    .carousel {
+      position: relative;
+      width: 75%;
+      max-width: 800px;
+      margin: 0 auto;
+      overflow: hidden;
+  
+      .carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+  
+        .carousel-item {
+          flex: none;
+          width: 100%; // Adjust to take full width for better transitions
+          img {
+            width: 50%;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  }
+  

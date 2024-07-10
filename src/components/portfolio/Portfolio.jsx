@@ -5,28 +5,35 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
+    title: "Capture",
+    img: "/capture.png",
+    desc: "Capture is a mobile and web application designed to recreate the nostalgic experience of a disposable camera at events. By scanning a unique QR code, attendees can access a dedicated event space to capture and upload photos.",
+  },
+  {
+    id: 2,
+    title: "ConvenientCare",
+    img: "/convinientcare.png",
+    desc: "A home healthcare management app aimed at simplifying sample collection, providing easy lab access, and ensuring quick test results for aging adults and individuals with disabilities..",
+  },
+  {
+    id: 3,
+    title: "Riverine",
+    img: "/riverine.png",
+    desc: "A river management application to allow users to participate in river management campaigns and also track events happening around and be an active member to participate to clean rivers!",
+  },
+  {
+    id: 4,
     title: "TEDxPICT Blogs Website",
     img: "/tedxpict.png",
     desc: "Collaborated as a UI/UX Designer for TEDxPICT Blogs, contributing to the creation of innovative website interfaces using Figma.",
   },
   {
-    id: 2,
-    title: "PrintEZ",
-    img: "/PrintEZ-project.png",
-    desc: "PrintEZ, a Web and App portal to reduce clutter at local stationery shops This is a ’Project Based Learning’ Project and the entire website is made in ReactJS with NextJS framework.",
-  },
-  {
-    id: 3,
+    id: 5,
     title: "Lemon Tree(Freelance UI/UX)",
     img: "/lemontree.png",
     desc: "Worked as a Freelance UI/UX designer, Lemon Tree is a BTC (Bitcoin) Price Prediction Website.",
   },
-  {
-    id: 4,
-    title: "LawPal",
-    img: "/lawpal.png",
-    desc: "An App based portal, designed to make an e-MarketPlace for lawyers to be onboarded for job opportunities and even for users to reachout lawyers.",
-  }
+ 
 ];
 
 const Single = ({ item }) => {
@@ -41,11 +48,11 @@ const Single = ({ item }) => {
   if (item.id === 1) {
     buttons = (
       <>
-        <a href="https://blogs.tedxpict.in/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.figma.com/design/T1jv1F402P64CoVHUX2oM5/Capture-UI?node-id=1-3&t=KwZZUHeNw8BZCu1f-0" target="_blank" rel="noopener noreferrer">
           <button>View Project</button>
         </a>
-        <a href="https://medium.com/@riyawani26/tedxpict-blogs-website-ui-ux-case-study-bf389410b35a" target="_blank" rel="noopener noreferrer">
-          <button>View Case Study</button>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <button>Case Study Releasing soon</button>
         </a>
       </>
     )
@@ -53,10 +60,10 @@ const Single = ({ item }) => {
   else if (item.id === 2) {
     buttons = (
       <>
-        <a href="https://printez.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.figma.com/design/clAtLN9CPBoh9z4gOb9ALE/ConvenientCare?node-id=0-1&t=xBgAZyY1hl7k1MIT-0" target="_blank" rel="noopener noreferrer">
           <button>View Project</button>
         </a>
-        <a href="https://www.behance.net/gallery/176674093/UIUX-Case-Study-PrintEZ" target="_blank" rel="noopener noreferrer">
+        <a href="https://medium.com/@riyawani26/convenientcare-app-design-ui-ux-case-study-872c42865602" target="_blank" rel="noopener noreferrer">
           <button>View Case Study</button>
         </a>
       </>
@@ -66,9 +73,13 @@ const Single = ({ item }) => {
   { 
     buttons = (
       <>
-        <a href="https://www.figma.com/file/vqxFLKWe16zi9bmX2d3onu/Lemon-Tree?type=design&node-id=0-1&mode=design&t=RdANscuMpqa64tjT-0" target="_blank" rel="noopener noreferrer">
+         <a href="https://www.figma.com/design/qxojP9Bnsbk6WeuAmL18tG/Frostbyte-Designathon?node-id=0-1&t=AD1VYcsf4u9ZzM2T-0" target="_blank" rel="noopener noreferrer">
           <button>View Project</button>
         </a>
+        <a href="https://www.behance.net/gallery/194022283/Riverine-UIUX-Case-Study" target="_blank" rel="noopener noreferrer">
+          <button>View Case Study</button>
+        </a>
+       
       </>
     )  
   }
@@ -76,12 +87,25 @@ const Single = ({ item }) => {
   {
     buttons = (
       <>
-        <a href="https://www.figma.com/file/LLq5Q1mnp8C1VQuHlIq7pj/SIH-Lawyer-Screens?type=design&node-id=0-1&mode=design&t=PbGtUSmalF5cMNLr-0" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.figma.com/design/6Hfup5NKLlbXtJLWd5sPKN/Tedxpict-blogs-website?node-id=0-1&t=Z5Kqv622ptEJ5B3l-0" target="_blank" rel="noopener noreferrer">
           <button>View Project</button>
+        </a>
+        <a href="https://medium.com/@riyawani26/tedxpict-blogs-website-ui-ux-case-study-bf389410b35a" target="_blank" rel="noopener noreferrer">
+          <button>View Case Study</button>
         </a>
       </>
     )
-    }
+  }
+  else if (item.id === 5)
+    {
+      buttons = (
+        <>
+          <a href="https://www.figma.com/file/vqxFLKWe16zi9bmX2d3onu/Lemon-Tree?type=design&node-id=0-1&mode=design&t=RdANscuMpqa64tjT-0" target="_blank" rel="noopener noreferrer">
+            <button>View Project</button>
+          </a>
+        </>
+      )
+      }
   
 
   return (
@@ -119,7 +143,7 @@ const Portfolio = () => {
   return (
     <div className="portfolio" ref={ref}>
       <div className="progress">
-        <h1>Relevant Work</h1>
+        <h1>Check this out!</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (
