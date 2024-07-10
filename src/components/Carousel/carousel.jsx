@@ -1,7 +1,7 @@
 // Carousel.jsx
 import React, { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import "./Carousel.scss";
+import "./carousel.scss";
 
 const images = [
     "1.jpg",
