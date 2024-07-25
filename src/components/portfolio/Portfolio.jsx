@@ -51,8 +51,8 @@ const Single = ({ item }) => {
         <a href="https://www.figma.com/design/T1jv1F402P64CoVHUX2oM5/Capture-UI?node-id=1-3&t=KwZZUHeNw8BZCu1f-0" target="_blank" rel="noopener noreferrer">
           <button>View Project</button>
         </a>
-        <a href="" target="_blank" rel="noopener noreferrer">
-          <button>Case Study Releasing soon</button>
+        <a href="https://www.behance.net/gallery/203463941/Capture-A-Disposable-Camera-App" target="_blank" rel="noopener noreferrer">
+          <button>Case Study</button>
         </a>
       </>
     )
@@ -112,10 +112,10 @@ const Single = ({ item }) => {
     <section >
       <div className="container">
         <div className="wrapper">
-          <div className="imageContainer" ref={ref}>
+          <div className="imageContainer">
             <img src={item.img} alt="" />
           </div>
-          <motion.div className="textContainer" style={{y}}>
+          <motion.div className="textContainer">
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <motion.div className="buttonContainer" >{buttons}</motion.div>
@@ -138,18 +138,20 @@ const Portfolio = () => {
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
+    
   });
 
   return (
-    <div className="portfolio" ref={ref}>
+    <div className="portfolio" >
       <div className="progress">
-        <h1>Check this out!</h1>
+        <h1>My Projects</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
       {items.map((item) => (
         <Single item={item} key={item.id} />
       ))}
     </div>
+    
   );
 };
 

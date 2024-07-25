@@ -21,8 +21,9 @@ const AboutMe = ({ item }) => {
           </div>
           <div className="textContainer">
             <h2>About Me</h2>
-            <p>
-              I love designing things that look great and work well, especially in the digital world. I'm into user interface and experience design, graphic design, and also enjoy coding for the frontend. Basically, I'm a designer who can also make things function smoothly on the web.
+            <p> Embracing the world of product design, I am Riya Wani, committed to shaping intuitive interactions. With 3 months of experience as a Product Design Intern at eZpedal Rideshare, alongside my ongoing studies in Computer Science at PICT, Pune, I am dedicated to making design and technology seamlessly coexist.
+    <br></br>
+My passion lies in working with product-based companies. I thrive on immersing myself in the product domain, exploring its intricacies and complexities, and developing innovative solutions to improve it. I believe in using data and user insights to inform my design decisions.
             </p>
             <br></br>
            

@@ -16,7 +16,6 @@ const images = [
     "11.jpg",
     "12.jpg",
     "13.jpg",
-    "14.jpg",
     "15.jpg",
     "16.png",
     
