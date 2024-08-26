@@ -73,7 +73,7 @@ const Single = ({ item }) => {
   { 
     buttons = (
       <>
-         <a href="https://www.figma.com/design/qxojP9Bnsbk6WeuAmL18tG/Frostbyte-Designathon?node-id=0-1&t=AD1VYcsf4u9ZzM2T-0" target="_blank" rel="noopener noreferrer">
+         <a href="https://www.figma.com/design/t7Z1gN3r4Td718wHUfrwnV/Frostbyte-Designathon?node-id=0-1&t=Fgb4kDjtJyJTtGvn-0" target="_blank" rel="noopener noreferrer">
           <button>View Project</button>
         </a>
         <a href="https://www.behance.net/gallery/194022283/Riverine-UIUX-Case-Study" target="_blank" rel="noopener noreferrer">

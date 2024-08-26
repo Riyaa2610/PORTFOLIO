@@ -33,7 +33,7 @@ const Navbar = () => {
           <a target="_blank" href="https://medium.com/@riyawani26">
             <img src="/medium.png" alt="" />
           </a>
-          <a target="_blank" href="https://drive.google.com/file/d/1koDepX5lhXOBR0lGa1_tkTva1p-2nGmX/view">
+          <a target="_blank" href="https://drive.google.com/file/d/1TcTDJ0K8hP2ZFAauLQ3bSGMNIxv4tB2m/view?usp=sharing">
             <h3>RESUME</h3>
           </a>
         </div>
